@@ -60,14 +60,14 @@ body {
 							<h3 class="text-center" style="color: black;">Billing Address</h3>
 					<form:form class="form-horizontal" action="saveBillingAddress" commandName="billingAddress">
 						<div class="form-group">
-							<label for="" class="control-label col-sm-2">Line 1</label>
+							<label for="" class="control-label col-sm-2">House</label>
 							<div class="col-sm-10">
 							<form:errors path="line1" class="error"/>
 								<input name="line1" type="text" autofocus="true" class="form-control" required="true"/>
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="" class="control-label col-sm-2">Line 2</label>
+							<label for="" class="control-label col-sm-2">Street</label>
 							<div class="col-sm-10">
 							<form:errors path="line2" class="error"/>
 								<input name="line2" type="text" class="form-control" />

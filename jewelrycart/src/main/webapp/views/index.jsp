@@ -24,6 +24,7 @@
 </head>
 <body>
 <%@ include file="/views/header.jsp" %>
+${username}
 ${successlogin}
  <%@ include file="/views/Carousel.jsp" %>
  <%@ include file="/views/footer.jsp" %>
