@@ -1,5 +1,5 @@
-Online Shopping Portal
------------------------
+Online Jewellery Shopping Portal
+--------------------------------
 
 This website is based on Eccommerce project.
 The project is created using Maven webapp.
