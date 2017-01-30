@@ -13,6 +13,6 @@ The project is created using Maven webapp.
 
 1. HTML5
 2. Javascript
-3. Bootstrap
+3. BootStrap
 4. Hibernate
 5. Java

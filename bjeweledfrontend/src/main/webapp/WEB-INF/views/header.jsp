@@ -39,7 +39,7 @@
 				
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${not empty SuccessMessage}">
-						<li><a href="#">My Cart<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+						<li><a href="addtocart">My Cart<span class="glyphicon glyphicon-shopping-cart"></span></a></li>
 						<li><a href="logout">Logout<span class="glyphicon glyphicon-log-out"></span></a></li>
 					</c:if>
 				</ul>
@@ -57,6 +57,7 @@
 						<li><a href="home">Home</a></li>
 						<li class="dropdown">
 						<li><a href="silver">Products</a></li>
+						<li><a href="productview">Product 2</a></li>
 						<li><a href="aboutus">About Us</a></li>
 						<li><a href="contactus">Contact Us</a></li>
 

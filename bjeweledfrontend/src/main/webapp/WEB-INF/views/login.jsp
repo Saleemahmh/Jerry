@@ -26,7 +26,7 @@ margin-top:30px;
 </style>
 <body>
 <jsp:include page="/WEB-INF/views/header.jsp"></jsp:include>
-<form action="LoginSuccess" method="post">
+<form action="welcome" method="post">
 	<div class="container">
     <div class="row">
         <div class="col-md-4 col-md-offset-7">

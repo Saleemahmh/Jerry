@@ -10,12 +10,37 @@
 		.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
 		.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
 		.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-		.tg .tg-4eph{background-color:#f9f9f9}
+		.tg .tg-4eph{background-color:#f9f9f9} 
+		.container {
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: oblique;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 10px;
+	box-sizing: border-box;
+	border: none;
+	background-color: #AFEEEE;
+	color: black;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: oblique;
+}
+
+label {
+	padding: 12px 20px;
+	margin: 8px 10px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: oblique;
+}
+		
 	</style>
 </head>
 <body>
 
-
+<jsp:include page="/WEB-INF/views/admin.jsp"></jsp:include>
 <h1>
 	Add a Supplier
 </h1>
@@ -102,5 +127,7 @@
 	</c:forEach>
 	</table>
 </c:if>
+<br><br><br><br>
+<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 </body>
 </html>

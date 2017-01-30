@@ -9,10 +9,12 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.validation.constraints.Size;
 
+import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 
 @Entity
 @Table(name="PRODUCT")
+@Component
 public class Product {
 
 	@Id

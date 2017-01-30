@@ -18,7 +18,7 @@ public class HomeController {
 
 	@RequestMapping("/validate")
 
-	public String validate(@RequestParam(name = "userID") String id, @RequestParam(name = "password") String pwd,
+	public String validate(@RequestParam(name = "Username") String id, @RequestParam(name = "Password") String pwd,
 			Model model, HttpSession session) {
 		// validate - hit the database to validate
 		// NIIT
@@ -176,10 +176,15 @@ public class HomeController {
 		model.addAttribute("userClickeddearring", "true");
 		return "d-earring";
 	}
-	@RequestMapping("/logout")
+	@RequestMapping("/addtocart")
+	public String addtocart(Model model) {
+		model.addAttribute("userClickedaddtocart", "true");
+		return "addtocart";
+	}
+	/*@RequestMapping("/logout")
 	public String logout(HttpSession session) {
 		session.invalidate();
 		return "index";
 	}
-
+*/
 }

@@ -91,14 +91,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Set in 22 Kt Yellow Gold (11.44 gms) Certified  Necklace set for Women  </p>
+      			<p>Set in 22 Kt Yellow Gold (11.44 gms) Certified for Women  </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.37598</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -115,14 +115,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Set in 18 Kt Yellow Gold (12.3 gms) Certified Necklace Set For women </p>
+      			<p>Set in 18 Kt Yellow Gold (12.3 gms) Certified For women </p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.34374</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -146,7 +146,7 @@ p {
       					<p class="price">Rs.60012</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -170,7 +170,7 @@ p {
       					<p class="price">Rs.18899</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -200,7 +200,7 @@ p {
       					<p class="price">Rs.27548</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -224,7 +224,7 @@ p {
       					<p class="price">Rs.78256</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -248,7 +248,7 @@ p {
       					<p class="price">Rs.69159</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -272,7 +272,7 @@ p {
       					<p class="price">Rs.76003</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -302,7 +302,7 @@ p {
       					<p class="price">Rs.49017</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -326,7 +326,7 @@ p {
       					<p class="price">Rs.62235</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -350,7 +350,7 @@ p {
       					<p class="price">Rs.57074</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -374,7 +374,7 @@ p {
       					<p class="price">Rs.61549</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" >  VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" >  BUY</button></a>
       				</div>
       				
       			</div>
@@ -404,7 +404,7 @@ p {
       					<p class="price">Rs.35654</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -428,7 +428,7 @@ p {
       					<p class="price">Rs.36529</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -445,14 +445,14 @@ p {
                     <span class="glyphicon glyphicon-star"></span>
                     <span class="glyphicon glyphicon-star-empty"></span>
                 </div>
-      			<p>Set in Smoky quartz , Citrine,18 Kt Rose Gold (9.98 gms) Certified Necklace for women .</p>
+      			<p>Set in Smoky quartz , Citrine,18 Kt Rose Gold (9.98 gms) Certified for women .</p>
       			<hr class="line">
       			<div class="row">
       				<div class="col-md-6 col-sm-6">
       					<p class="price">Rs.34104</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"><button class="btn btn-success right" > BUY</button></a>
       				</div>
       				
       			</div>
@@ -476,7 +476,7 @@ p {
       					<p class="price">Rs.41476</p>
       				</div>
       				<div class="col-md-6 col-sm-6">
-      					<button class="btn btn-success right" > VIEW</button>
+      					<a href="addtocart"> <button class="btn btn-success right" >BUY</button></a>
       				</div>
       				
       			</div>

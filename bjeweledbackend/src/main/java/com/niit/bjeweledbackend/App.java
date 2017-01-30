@@ -1,4 +1,4 @@
-package com.niit.bjeweledbackend;
+/*package com.niit.bjeweledbackend;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
@@ -7,10 +7,10 @@ import com.niit.bjeweledbackend.config.AppContextConfig;
 import com.niit.bjeweledbackend.dao.PersonDAO;
 import com.niit.bjeweledbackend.model.Person;
 
-/**
+*//**
  * Hello world!
  *
- */
+ *//*
 public class App 
 {
     public static void main( String[] args )
@@ -26,3 +26,4 @@ public class App
         personDAO.addPerson(person);
     }
 }
+*/

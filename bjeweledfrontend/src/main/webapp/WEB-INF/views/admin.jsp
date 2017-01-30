@@ -75,13 +75,13 @@ body {
 
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<c:if test="${not empty successadmin}">
+							<c:if test="${not empty SuccessMessage}">
 								<li><a href="logout"><span
 										class="glyphicon glyphicon-log-out"></span>Logout</a></li>
 							</c:if>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
-							<c:if test="${empty successadmin}">
+							<c:if test="${empty SuccessMessage}">
 								<li><a href="login"><span
 										class="glyphicon glyphicon-log-in"></span>Login</a></li>
 							</c:if>
@@ -113,6 +113,6 @@ body {
 				<jsp:include page="/WEB-INF/views/addproduct.jsp"></jsp:include>
 			</c:if>
 
-			<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
+			
 </body>
 </html>

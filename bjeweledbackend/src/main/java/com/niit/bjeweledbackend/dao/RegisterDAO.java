@@ -1,9 +1,24 @@
 package com.niit.bjeweledbackend.dao;
 
+import java.util.List;
+
 import com.niit.bjeweledbackend.model.Register;
 
+
+
 public interface RegisterDAO {
-	public void addUser(Register reg);
+public boolean save(Register register);
 	
-	public Register getInfo(String lc);
+	public boolean update(Register register);
+		
+		public boolean delete(Register register);
+		
+		
+		public List<Register> list();
+				
+		public boolean isValidUser(String username, String password);
+
+		public Register get(String username);
+		 Register getCustomerByUsername (String username);
+
 }

@@ -7,8 +7,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Size;
 
+import org.springframework.stereotype.Component;
+
 @Entity
 @Table(name="CATEGORY")
+@Component
 public class Category {
 
 	@Id

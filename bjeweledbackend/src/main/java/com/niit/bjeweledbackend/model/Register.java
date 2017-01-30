@@ -9,8 +9,11 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 
+import org.springframework.stereotype.Component;
+
 @Entity
 @Table(name="REGISTER")
+@Component
 public class Register {
 	
 	@Column
@@ -22,9 +25,9 @@ public class Register {
 	@Id
 	// @GeneratedValue(strategy=GenerationType.IDENTITY)
 	public String UserName;
-	@Transient
+	@Column
 	public String ConfrimPassword;
-	@Transient
+	@Column
 	public String Password;
 	@Column
 	public String Houseno;
@@ -38,7 +41,10 @@ public class Register {
 	public String Country;
 	@Column
 	public long Postalcode;
-	
+	@Column
+	private String role="ROLE_USER";
+	@Column
+	private boolean enabled;
 	public Register()
 	{		
 	}
@@ -138,5 +144,22 @@ public class Register {
 	public void setPostalcode(long postalcode) {
 		Postalcode = postalcode;
 	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	public boolean isEnabled() {
+		return enabled;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+	
 	
 }

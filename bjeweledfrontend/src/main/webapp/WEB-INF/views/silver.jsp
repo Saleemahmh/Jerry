@@ -114,8 +114,8 @@ body {
 			<!--/row -->
 
 			<br> <br>
-			<!--/row -->
-			<!-- <div class="container">
+			
+			<div class="container">
 				<h3>Gold Jewellery</h3>
 				<div class="row">
 					<div class="col-sm-4">
@@ -131,7 +131,7 @@ body {
 						</div>
 					</div>
 
-					TH2
+					
 					<div class="col-sm-4">
 						<div class="thumbnail">
 							<a href="g-rings" class="">
@@ -146,7 +146,7 @@ body {
 						</div>
 					</div>
 
-					TH2
+					
 					<div class="col-sm-4">
 						<div class="thumbnail">
 							<a href="g-earring" class="">
@@ -160,112 +160,10 @@ body {
 							</a>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<!--/row -->
 
-				<!-- <br> <br>
-				/row
-				<div class="container">
-					<h3>Diamond Jewellery</h3>
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="thumbnail">
-								<a href="d-necklace" class="">
-									<div class="caption">
-										<h4 class="">Necklace</h4>
-										<p class="">Click to view</p>
-									</div> <img
-									src="http://www.jewellerycraze.com/wp-content/uploads/2016/10/Online-jewellery-stores-in-india.jpg"
-									class="">
-								</a>
-							</div>
-						</div>
-
-						TH2
-						<div class="col-sm-4">
-							<div class="thumbnail">
-								<a href="d-rings" class="">
-									<div class="caption">
-										<h4 class="">Ring</h4>
-
-										<p class="">Click to view</p>
-									</div> <img
-									src="http://cadmaster.pro/file/2016/04/3a.png"
-									alt="..." class="">
-								</a>
-							</div>
-						</div>
-
-						TH2
-						<div class="col-sm-4">
-							<div class="thumbnail">
-								<a href="d-earring" class="">
-									<div class="caption">
-										<h4 class="">Earring</h4>
-
-										<p class="">Click to view</p>
-									</div> <img
-									src="https://lh3.googleusercontent.com/-QTR9F2BT2AQ/VnqSyrx5vVI/AAAAAAAAACw/QzN38rkzTOQ/w800-h800/Diamond%2BJewellers%2Bin%2BChennai%2B-%2BViswa%2B%2526%2BDevji.jpg"
-									alt="..." class="">
-								</a>
-							</div>
-						</div>
-
-
-
-
-					</div>
-					/row -->
-					<div class="container">
-		<h3>Fashion Jewellery</h3>
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="f-necklace" class="">
-						<div class="caption">
-							<h4 class="">Necklace</h4>
-							<p class="">Click to view</p>
-						</div> <img
-						src="http://southindiajewels.com/wp/wp-content/uploads/2015/03/gold-plated-imitation-jewellery-designs.jpg"
-						class="">
-					</a>
-				</div>
-			</div>
-
-			<!-- TH2 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="f-rings" class="">
-						<div class="caption">
-							<h4 class="">Rings</h4>
-
-							<p class="">Click to view</p>
-						</div> <img
-						src="http://www.ibizabohogirl.com/wp-content/uploads/2016/03/slidernieuw4-1920x1080.jpg"
-						alt="..." class="">
-					</a>
-				</div>
-			</div>
-
-			<!-- TH2 -->
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<a href="f-earring" class="">
-						<div class="caption">
-							<h4 class="">Earrings</h4>
-
-							<p class="">Click to view</p>
-						</div> <img
-						src="http://images.ttcdn.co/media/i/product/163751-a5f513044aa44ccd9103aaaa05b45631.jpeg?size=2000"
-						alt="..." class="">
-					</a>
-				</div>
-			</div>
-
-
-
-					
-				</div>
+				
 				<script>
 					$(document).ready(function() {
 						$("[rel='tooltip']").tooltip();

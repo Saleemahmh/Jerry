@@ -16,11 +16,7 @@
 <link
 	href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
 	rel="stylesheet">
-<!-- <link
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
-	crossorigin="anonymous"> -->
+
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
@@ -75,7 +71,7 @@ body {
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-user" style="color: black;"></span>
 									</span> <input type="text" class="form-control" name="FirstName" required
-										placeholder="First Name" id="FirstName"/>
+									placeholder="First Name" id="FirstName"/>
 								</div>
 							</div>
 
@@ -83,7 +79,7 @@ body {
 								<div class="input-group">
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-user" style="color: black;"></span></span>
-									<input type="text" class="form-control" name="LastName"
+									<input type="text" class="form-control" name="LastName" pattern="[A-Za-z]"
 										placeholder="Last Name" id="LastName" />
 								</div>
 							</div>
@@ -91,7 +87,7 @@ body {
 								<div class="input-group">
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-envelope" style="color: black;"></span></span>
-									<input class="form-control" required type="email"
+									<input class="form-control" required type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
 										placeholder="Email" name="EmailId" id="EmailId"
 										onchange="email_validate(this.value);" />
 								</div>
@@ -100,7 +96,7 @@ body {
 								<div class="input-group">
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-pencil" style="color: black;"></span></span>
-									<input type="text" class="form-control" name="UserName"
+									<input type="text" class="form-control" name="UserName" pattern="[A-Z][a-z]{1,15}"
 										placeholder="Username" id="UserName" required />
 								</div>
 							</div>
@@ -109,7 +105,7 @@ body {
 
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-lock" style="color: black;"></span></span>
-									<input required name="ConfrimPassword" type="password"
+									<input required name="ConfrimPassword" type="password" 
 										class="form-control inputpass" placeholder="Enter Password" minlength="6" maxlength="16"
 										id="ConfrimPassword" />
 								</div>
@@ -154,7 +150,7 @@ body {
 								<div class="input-group">
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-phone" style="color: black;"></span></span>
-									<input type="text" name="ContactNo" class="form-control"
+									<input type="text" name="ContactNo" class="form-control" pattern="[0-9]{10}"
 										placeholder="Phone" id="ContactNo" />
 								</div>
 							</div>
@@ -179,7 +175,7 @@ body {
 								<div class="input-group">
 									<span class="input-group-addon"><span
 										class="glyphicon glyphicon-envelope" style="color: black;"></span></span>
-									<input type="text" class="form-control" name="Postalcode"
+									<input type="text" class="form-control" name="Postalcode" pattern="[0-9]{6}"
 										placeholder="Postal Code" id="Postalcode"/>
 								</div>
 							</div>
@@ -206,18 +202,18 @@ body {
 			var badColor = "#ff6666";
 			//Compare the values in the password field 
 			//and the confirmation field
-			if (ConfirmPassword.value == Password.value) {
+			if (pass1.value == pass2.value) {
 				//The passwords match. 
 				//Set the color to the good color and inform
 				//the user that they have entered the correct password 
-				Password.style.backgroundColor = goodColor;
+				pass2.style.backgroundColor = goodColor;
 				message.style.color = goodColor;
 				message.innerHTML = "Passwords Match"
 			} else {
 				//The passwords do not match.
 				//Set the color to the bad color and
 				//notify the user.
-				Password.style.backgroundColor = badColor;
+				pass2.style.backgroundColor = badColor;
 				message.style.color = badColor;
 				message.innerHTML = "Passwords Do Not Match!"
 			}

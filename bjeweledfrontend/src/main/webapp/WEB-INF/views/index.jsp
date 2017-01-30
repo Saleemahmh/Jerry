@@ -95,6 +95,10 @@ body {
 
 		<jsp:include page="/WEB-INF/views/d-earring.jsp"></jsp:include>
 	</c:if>
+	<c:if test="${userClickedaddtocart}">
+
+		<jsp:include page="/WEB-INF/views/addtocart.jsp"></jsp:include>
+	</c:if>
 	<jsp:include page="/WEB-INF/views/thumbnail.jsp"></jsp:include>
 	<jsp:include page="/WEB-INF/views/footer.jsp"></jsp:include>
 </body>

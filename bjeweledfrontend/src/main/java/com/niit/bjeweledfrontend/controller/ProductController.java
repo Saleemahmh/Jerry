@@ -25,6 +25,15 @@ public class ProductController {
 	@Autowired
 	ProductDAO productDAO;
 	
+	@RequestMapping(value="/productview",method=RequestMethod.GET)
+	public String listProductview(Model model)
+	{
+		model.addAttribute("product",new Product());
+		System.out.println("inside productcontroller");
+		
+		model.addAttribute("listProduct",productDAO.listProduct());
+		return "productview";
+	}
 	@RequestMapping(value="/addproduct",method=RequestMethod.GET)
 	public String listPersons(Model model)
 	{
