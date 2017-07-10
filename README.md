@@ -11,6 +11,7 @@ The project is created using Maven webapp.
 
 -Technology used
 
+
 1. HTML5
 2. Javascript
 3. BootStrap
